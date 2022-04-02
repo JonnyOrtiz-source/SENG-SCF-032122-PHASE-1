@@ -20,3 +20,38 @@ function increaseValue(obj, key) {
 }
 
 increaseValue(pokemon, 'likes');
+
+// Write a function charDetails() that takes a character object in as an argument and loops through the object using the for...in method to print out the values of each property
+
+function charDetails(obj) {
+    for (key in obj) {
+        console.log(obj[key]);
+    }
+}
+
+charDetails(pokemon);
+
+/*
+Write a function printAbilities that accepts a character object as an argument and returns a list of the characters abilities as a string.  Use the provided pikachu object to test.
+*/
+
+const pikachu = {
+    name: 'Pikachu',
+    img: 'www.img.com',
+    likes: 0,
+    abilities: [
+        {
+            name: 'static',
+        },
+        {
+            name: 'lightning-rod',
+        },
+    ],
+};
+let str = '';
+function printAbilities(obj) {
+    // return obj.abilities.forEach((el) => console.log(el.name));
+    obj.abilities.forEach((el) => (str += el.name + ' '));
+    console.log(str);
+}
+printAbilities(pikachu);
