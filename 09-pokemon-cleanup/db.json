@@ -4,7 +4,7 @@
       "id": 1,
       "name": "bulbasaur",
       "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-      "likes": 4
+      "likes": 7
     },
     {
       "id": 2,
@@ -22,7 +22,31 @@
       "id": 4,
       "name": "charmander",
       "img": "https://pixy.org/download/1207107/",
-      "likes": 20
+      "likes": 22
+    },
+    {
+      "name": "Kakuna",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png",
+      "likes": 5,
+      "id": 5
+    },
+    {
+      "name": "Wigglytuf",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png",
+      "likes": 3,
+      "id": 7
+    },
+    {
+      "name": "Picachu",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+      "likes": 3,
+      "id": 8
+    },
+    {
+      "name": "Venonat",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png",
+      "likes": 0,
+      "id": 9
     }
   ],
   "comments": [
@@ -35,6 +59,31 @@
       "characterId": 2,
       "content": "ohhh ivysaur how i love you",
       "id": 6
+    },
+    {
+      "characterId": 2,
+      "content": "grumpy any time?",
+      "id": 8
+    },
+    {
+      "characterId": 7,
+      "content": "so cute!",
+      "id": 10
+    },
+    {
+      "characterId": 8,
+      "content": "Pica Pica!",
+      "id": 11
+    },
+    {
+      "characterId": 1,
+      "content": "fat fuck",
+      "id": 12
+    },
+    {
+      "characterId": 4,
+      "content": "char who?",
+      "id": 13
     }
   ]
 }
